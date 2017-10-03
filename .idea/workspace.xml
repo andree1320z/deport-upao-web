@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="90ec45a2-ed8d-417c-83be-d79af9614448" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deport_upao/config/settings/base.py" afterPath="$PROJECT_DIR$/deport_upao/config/settings/base.py" />
     </list>
     <ignored path="$PROJECT_DIR$/.idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/deport_upao/config/settings/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+            <state relative-caret-position="12">
+              <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
               <folding>
                 <element signature="e#312#374#0" expanded="true" />
               </folding>
@@ -73,12 +73,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="670">
-                <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <first_editor relative-caret-position="160">
+                <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -140,7 +140,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>portfolio</find>
       <find>welcome</find>
       <find>services</find>
       <find>redis</find>
@@ -170,6 +169,7 @@
       <find>DATABASES</find>
       <find>dj_database_url</find>
       <find>secret</find>
+      <find>DATABASE</find>
     </findStrings>
     <replaceStrings>
       <replace>catalogo</replace>
@@ -224,8 +224,8 @@
         <option value="$PROJECT_DIR$/deport_upao/apps/pedidos/urls.py" />
         <option value="$PROJECT_DIR$/deport_upao/config/urls.py" />
         <option value="$PROJECT_DIR$/requirements/base.txt" />
-        <option value="$PROJECT_DIR$/deport_upao/config/settings/base.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/deport_upao/config/settings/base.py" />
       </list>
     </option>
   </component>
@@ -274,7 +274,7 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/deport_upao/config/settings/dev.py" />
-    <property name="SearchEverywhereHistoryKey" value="base.&#9;FILE&#9;file:///home/ricoru/UPAO/deport-upao-web-python/requirements/base.txt&#10;base&#9;FILE&#9;file:///home/ricoru/UPAO/deport-upao-web-python/deport_upao/config/settings/base.py&#10;skele&#9;FILE&#9;file:///home/ricoru/UPAO/deport-upao-web-python/deport_upao/templates/skeleton.html&#10;url&#9;FILE&#9;file:///home/ricoru/UPAO/deport-upao-web-python/deport_upao/config/urls.py&#10;base.p&#9;FILE&#9;file:///home/ricoru/UPAO/deport-upao-web-python/deport_upao/config/settings/base.py&#10;main.cs&#9;FILE&#9;file:///home/ricoru/UPAO/deport-upao-web-python/deport_upao/static/css/main.css&#10;home&#9;FILE&#9;file:///home/ricoru/UPAO/deport-upao-web-python/deport_upao/templates/landing/home.html" />
+    <property name="SearchEverywhereHistoryKey" value="base&#9;FILE&#9;file:///home/ricoru/UPAO/deport-upao-web-python/deport_upao/config/settings/base.py&#10;base.&#9;FILE&#9;file:///home/ricoru/UPAO/deport-upao-web-python/requirements/base.txt&#10;skele&#9;FILE&#9;file:///home/ricoru/UPAO/deport-upao-web-python/deport_upao/templates/skeleton.html&#10;url&#9;FILE&#9;file:///home/ricoru/UPAO/deport-upao-web-python/deport_upao/config/urls.py&#10;base.p&#9;FILE&#9;file:///home/ricoru/UPAO/deport-upao-web-python/deport_upao/config/settings/base.py&#10;main.cs&#9;FILE&#9;file:///home/ricoru/UPAO/deport-upao-web-python/deport_upao/static/css/main.css&#10;home&#9;FILE&#9;file:///home/ricoru/UPAO/deport-upao-web-python/deport_upao/templates/landing/home.html" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ignore_missing_gitignore" value="true" />
   </component>
@@ -380,14 +380,21 @@
       <option name="project" value="LOCAL" />
       <updated>1507051878595</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="heroku config">
+      <created>1507052014031</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1507052014031</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="741" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3159091" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20227273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -421,7 +428,8 @@
     <MESSAGE value="segundo deploy" />
     <MESSAGE value="Procfile" />
     <MESSAGE value="heroku adaptation" />
-    <option name="LAST_COMMIT_MESSAGE" value="heroku adaptation" />
+    <MESSAGE value="heroku config" />
+    <option name="LAST_COMMIT_MESSAGE" value="heroku config" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -653,6 +661,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -660,6 +669,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -755,16 +765,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deport_upao/config/settings/base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="45" column="20" lean-forward="false" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
-          <folding>
-            <element signature="e#312#374#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deport_upao/core/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -794,8 +794,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="670">
-            <caret line="59" column="0" lean-forward="true" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <first_editor relative-caret-position="160">
+            <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
             <folding />
           </first_editor>
           <second_editor />
@@ -804,6 +804,16 @@
       <provider editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deport_upao/config/settings/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12">
+          <caret line="130" column="0" lean-forward="true" selection-start-line="130" selection-start-column="0" selection-end-line="130" selection-end-column="0" />
+          <folding>
+            <element signature="e#312#374#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
