@@ -1,0 +1,58 @@
+# Current framework
+# https://docs.djangoproject.com/en/2.0/
+Django==1.11
+
+# Advanced python interpreter/REPL
+# http://docs.bpython-interpreter.org/
+bpython==0.14.2
+
+# Secure XML parser protected against XML bombs
+# https://bitbucket.org/tiran/defusedxml
+defusedxml==0.4.1
+
+# Serve production static files with Django
+# https://github.com/kennethreitz/dj-static
+dj-static==0.0.6
+
+# Custom User model classes such as `AbstractEmailUser` and `AbstractNamedUser`
+# http://django-authtools.readthedocs.org/en/latest/
+git+https://github.com/fusionbox/django-authtools.git
+
+# Lots of custom mixins
+# http://django-braces.readthedocs.org/en/latest/
+django-braces==1.8.1
+
+# Simple Django management command that clears your cache
+# https://github.com/rdegges/django-clear-cache
+django-clear-cache==0.3
+
+# Useful command line extensions (`shell_plus`, `create_command`, `export_emails`)
+# http://django-extensions.readthedocs.org/en/latest/
+django-extensions==1.6.1
+
+# Control of output of form rendering
+# http://django-floppyforms.readthedocs.org/en/latest/
+django-floppyforms==1.6.0
+
+# Useful model mixins and utilities such as `TimeStampedModel` and `Choices`
+# https://django-model-utils.readthedocs.org/en/latest/
+django-model-utils==2.3.1
+
+# Enables redis cacheing
+# https://django-redis.readthedocs.org/en/latest/
+django-redis==4.3.0
+
+# http://forms.viewflow.io/
+django-material
+
+django-environ==0.4.0
+
+django-overextends
+
+git+https://github.com/agiliq/Django-parsley
+
+
+gunicorn==19.6.0
+psycopg2==2.6.2
+whitenoise==3.2
+dj-database-url==0.4.1
