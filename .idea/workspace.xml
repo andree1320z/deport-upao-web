@@ -1,9 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90ec45a2-ed8d-417c-83be-d79af9614448" name="Default" comment="segundo deploy">
+    <list default="true" id="90ec45a2-ed8d-417c-83be-d79af9614448" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/media/image1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/media/image10.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/media/image11.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/media/image12.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/media/image13.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/media/image14.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/media/image2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/media/image3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/media/image4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/media/image5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/media/image6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/media/image7.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/media/image8.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/media/image9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Procfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/[Content_Types].xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/_rels/.rels" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/customXml/_rels/item1.xml.rels" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/customXml/item1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/customXml/itemProps1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/docProps/app.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/docProps/core.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/_rels/document.xml.rels" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/diagrams/colors1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/diagrams/data1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/diagrams/drawing1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/diagrams/layout1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/diagrams/quickStyle1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/document.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/endnotes.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/fontTable.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/footnotes.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/numbering.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/styles.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/theme/theme1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/informe/word/webSettings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/deport_upao/Procfile" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,18 +54,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/deport-upao/lib/python3.5/site-packages/django/db/models/base.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
-              <caret line="117" column="0" lean-forward="false" selection-start-line="117" selection-start-column="0" selection-end-line="117" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deport_upao/Procfile">
+        <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
@@ -41,17 +68,7 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/deport_upao/config/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -178,8 +195,10 @@
         <option value="$PROJECT_DIR$/deport_upao/config/urls.py" />
         <option value="$PROJECT_DIR$/deport_upao/config/settings/base.py" />
         <option value="$PROJECT_DIR$/deport_upao/apps/productos/models.py" />
-        <option value="$PROJECT_DIR$/deport_upao/Procfile" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/deport_upao/Procfile" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/Procfile" />
       </list>
     </option>
   </component>
@@ -223,6 +242,12 @@
               <item name="deport-upao-web-python" type="462c0819:PsiDirectoryNode" />
               <item name="deport_upao" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="deport-upao-web-python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="deport-upao-web-python" type="462c0819:PsiDirectoryNode" />
+              <item name="deport_upao" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -239,18 +264,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/deport_upao/static/images" />
       <recent name="$PROJECT_DIR$/deport_upao/static/img" />
-      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/deport_upao" />
       <recent name="$PROJECT_DIR$/deport_upao/apps" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/informe" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/deport_upao/templates/pedidos" />
       <recent name="$PROJECT_DIR$/deport_upao/templates/ofertas" />
       <recent name="$PROJECT_DIR$/deport_upao/static/fonts/errors" />
-      <recent name="$PROJECT_DIR$/deport_upao/static/images/errors" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -311,7 +336,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507038941840</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="segundo deploy">
+      <created>1507039070339</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1507039070339</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -356,14 +388,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/deport_upao/templates/accounts/password_change_done.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="27" lean-forward="false" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/deport_upao/templates/products/list_products.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -747,6 +771,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="1" lean-forward="false" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/deport_upao/config/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -755,18 +795,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deport_upao/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
