@@ -1,0 +1,262 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block extra_css %}
+    <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/animate.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/font-awesome.min.css' %}" rel="stylesheet">
+    <link href="{% static 'css/lightbox.css' %}" rel="stylesheet">
+    <link href="{% static 'css/main.css' %}" rel="stylesheet">
+    <link id="css-preset" href="{% static 'css/presets/preset1.css' %}" rel="stylesheet">
+    <link href="{% static 'css/responsive.css' %}" rel="stylesheet">
+    <style>
+        section {
+            height: 100%;
+        }
+    </style>
+{% endblock %}
+{% block body %}
+{#    <!--.preloader-->#}
+{#  <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>#}
+{#  <!--/.preloader-->#}
+
+  <header id="home">
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active" style="background-image: url({% static 'images/slider/1.jpg' %})">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Bienvenido a <span>DEPORT-UPAO</span></h1>
+            <p class="animated fadeInRightBig">¡La tienda en donde encontraŕás todo lo que necesitas!</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Catálogo de Nuestros Productos</a>
+          </div>
+        </div>
+        <div class="item" style="background-image: url({% static 'images/slider/2.jpg' %})">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Un gran equipo de <span>Emprendedores</span></h1>
+            <p class="animated fadeInRightBig">Con habilidad y empeño, entregando trabajos de calidad.</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Catálogo de Nuestros Productos</a>
+          </div>
+        </div>
+        <div class="item" style="background-image: url({% static 'images/slider/3.jpg' %})">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Esfuerzo, y sobre todo <span>Creatividad</span></h1>
+            <p class="animated fadeInRightBig">¿No encuentras el diseño dentro de nuestras listas? ¡Envíanos el tuyo!</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#contact">Contáctanos</a>
+          </div>
+        </div>
+      </div>
+      <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+      <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
+
+      <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
+
+    </div><!--/#home-slider-->
+    <div class="main-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand text-center" href="{% url 'core:home' %}">
+              <img src="{% static 'images/favicon.ico' %}" alt="">
+          </a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="scroll active"><a href="{% url 'core:home' %}">Inicio</a></li>
+            <li class="scroll"><a href="#catalog">Catálogo</a></li>
+            <li class="scroll"><a href="#about-us">Nosotros</a></li>
+            <li class="scroll"><a href="#contact">Contact</a></li>
+            <li class="scroll"><a class="btn-danger" href="{% url 'login' %}">INTRANET</a></li>
+          </ul>
+        </div>
+      </div>
+    </div><!--/#main-nav-->
+  </header><!--/#home-->
+
+  <section id="catalog">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+          <h2>Catálogo</h2>
+          <p>¿Qué esperas? Entra ahora y descubre todos los modelos de polos estampadas y deportivas de fútbol que hay para tí en nuestra tienda en linea.</p>
+        </div>
+      </div>
+      <div class="team-members">
+        <div class="row">
+          <div class="col-sm-3">
+              {% for obj in object %}
+                  {{ obj }}
+                  <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="member-image">
+                <img class="img-responsive" src="images/team/1.jpg" alt="">
+              </div>
+              <div class="member-info">
+                <h3>Marian Dixon</h3>
+                <h4>CEO &amp; Founder</h4>
+                <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                  <li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
+                </ul>
+              </div>
+            </div>
+              {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#services-->
+
+  <section id="about-us" class="parallax" style="height: 100%">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una empresa peruana, de alto rendimiento acorde a los mecanismos del mercado, comprometida con lograr
+                la excelencia al momento de anteder a nuestros clientes.</p>
+          </div>
+        </div>
+        <br>
+        <div class="col-sm-12">
+          <div class="our-skills wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <p class="lead">Esfuerzo</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="90">90%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
+              <p class="lead">Conocimiento</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="10">10%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="400ms">
+              <p class="lead">Compromiso</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar"  aria-valuetransitiongoal="100">100%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#about-us-->
+    <section id="features" class="parallax">
+    <div class="container">
+      <div class="row count">
+        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <i class="fa fa-user"></i>
+          <h3 class="timer">4000</h3>
+          <p>Clientes Satisfechos</p>
+        </div>
+        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="500ms">
+          <i class="fa fa-desktop"></i>
+          <h3 class="timer">100</h3>
+          <p>Cantidad máxima atentida al día</p>
+        </div>
+        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="700ms">
+          <i class="fa fa-trophy"></i>
+          <h3 class="timer">5</h3>
+          <p>Certificados de calidad</p>
+        </div>
+        <div class="col-sm-3 col-xs-6 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="900ms">
+          <i class="fa fa-comment-o"></i>
+          <h3>24/7</h3>
+          <p>Contácanos</p>
+        </div>
+      </div>
+    </div>
+  </section><!--/#features-->
+  <section id="contact">
+{#    <div id="google-map" class="wow fadeIn" data-latitude="52.365629" data-longitude="4.871331" data-wow-duration="1000ms" data-wow-delay="400ms"></div>#}
+    <div id="contact-us" class="parallax">
+      <div class="container">
+        <div class="row">
+          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h2>Contáctanos</h2>
+          </div>
+        </div>
+        <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+          <div class="row">
+            <div class="col-sm-12">
+              <form id="main-contact-form" name="contact-form" method="post" action="#">
+                <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                  <div class="col-sm-12">
+                    <div class="form-group">
+                      <input type="text" name="name" class="form-control" placeholder="Nombre" required="required">
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input type="file" name="subject" class="form-control" placeholder="Modelos" required="required">
+                </div>
+                <div class="form-group">
+                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Mensaje" required="required"></textarea>
+                </div>
+                <div class="form-group col-sm-offset-8">
+                  <button type="submit" class="btn-submit">Enviar</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#contact-->
+
+  <footer id="footer">
+    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+      <div class="container text-center">
+        <div class="footer-logo">
+          <a href="{% url 'core:home' %}"><img class="img-responsive" src="{% static 'images/favicon.ico' %}" alt=""></a>
+        </div>
+        <div class="social-icons">
+          <ul>
+            <li><a class="envelope" href="#"><i class="fa fa-envelope"></i></a></li>
+            <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a class="tumblr" href="#"><i class="fa fa-tumblr-square"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-6">
+            <p>&copy; 2017 Trademarks.</p>
+          </div>
+          <div class="col-sm-6">
+            <p class="pull-right">Designed by <a href="http://www.themeum.com/">Emprendedores</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+{% endblock %}
+{% block extra_js %}
+{#    <script type="text/javascript" src="{% static 'js/jquery.js' %}"></script>#}
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+    <script type="text/javascript" async defer src="http://maps.google.com/maps/api/js?key=AIzaSyBgB1w5IBTMuOiXLNOmIvt3LJy7ovMtFfs"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.inview.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/wow.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/mousescroll.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/smoothscroll.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/jquery.countTo.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/lightbox.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/main.js' %}"></script>
+{% endblock %}

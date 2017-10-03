@@ -1,0 +1,25 @@
+{%  extends "base.html" %}
+{% load static %}
+{% block extra_css %}
+    {{ block.super }}
+    <style>
+        body {
+            text-align: center;
+        }
+        body div {
+            margin: 5% 10% 5% 10%;
+        }
+    </style>
+    {% include 'material/includes/material_css.html' %}
+{% endblock %}
+{%  block body %}
+    {%  block content %}
+    {%  endblock content %}
+{%  endblock body %}
+{% block extra_js %}
+    {{ block.super }}
+    <script src="{% static 'material/js/jquery.js' %}"></script>
+    {% include 'material/includes/material_js.html' %}
+{% endblock %}
+{% load material_form %}
+

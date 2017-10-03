@@ -1,0 +1,24 @@
+{%  extends "accounts/base.html" %}
+{% load i18n %}
+{% load static %}
+{% load staticfiles %}
+{% block body_class %}gray-bg{% endblock %}
+{% block title %}{% trans "Cerrar Sesión" %}{% endblock %}
+
+{%  block content %}
+    <div class="middle-box text-center loginscreen animated fadeInDown">
+        <div>
+            <div>
+                <h1 class="logo-name">TM</h1>
+            </div>
+            <h3>Gracias por utilizar Termoneuro</h3>
+            <p>
+                Despistaje de Neuropatía Periférica Diabética(NPD) por termografía infrarroja
+            </p>
+            <hr>
+            <div class="text-center">
+                <a href="{% url 'login' %}" class="btn btn-success btn-lg">Ir a Iniciar Sesión</a>
+            </div>
+        </div>
+    </div>
+{%  endblock %}
