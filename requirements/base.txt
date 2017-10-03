@@ -50,3 +50,9 @@ django-environ==0.4.0
 django-overextends
 
 git+https://github.com/agiliq/Django-parsley
+
+
+gunicorn==19.6.0
+psycopg2==2.6.2
+whitenoise==3.2
+dj-database-url==0.4.1

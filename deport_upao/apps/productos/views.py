@@ -4,7 +4,7 @@ from django.shortcuts import render
 # Create your views here.
 from django.views.generic import ListView
 
-from productos.models import Product
+from apps.productos.models import Product
 
 
 class ListProducts(LoginRequiredMixin, ListView):

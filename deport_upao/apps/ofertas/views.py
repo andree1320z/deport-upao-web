@@ -4,7 +4,7 @@ from django.shortcuts import render
 # Create your views here.
 from django.views.generic import ListView
 
-from ofertas.models import Offer
+from apps.ofertas.models import Offer
 
 
 class ListOffers(LoginRequiredMixin, ListView):

@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/dev/ref/settings/
 from os.path import abspath, basename, dirname, join, normpath
 from sys import path
 import environ
+import dj_database_url
 
 env = environ.Env()
 
@@ -54,7 +55,6 @@ ALLOWED_HOSTS = env.list('ALLOWED_HOSTS', default=[PROJECT_DOMAIN, 'localhost', 
 DJANGO_APPS = (
     'material.admin',
     'django.contrib.admin',
-    'django.contrib.sites',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -137,6 +137,10 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': env.db('DATABASE_URL'),
     # DATABASE_URL=sqlite:///my-local-sqlite.db
+    # 'default': dj_database_url.config(
+    #     default=dj_database_url.config('DATABASE_URL')
+    # )
+
 }
 if DATABASES['default']['ENGINE'] == 'django.db.backends.sqlite3':
     DATABASES['default']['NAME'] = join(DJANGO_ROOT, DATABASES['default']['NAME'])
@@ -226,3 +230,5 @@ STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
 )
+
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'

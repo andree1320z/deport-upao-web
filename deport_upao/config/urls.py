@@ -26,6 +26,7 @@ urlpatterns = [
     url(r'^productos/', include('apps.productos.urls', namespace='productos')),
     url(r'^ofertas/', include('apps.ofertas.urls', namespace='ofertas')),
     url(r'^cotizaciones/', include('apps.cotizaciones.urls', namespace='cotizaciones')),
+    url(r'^pedidos/', include('apps.pedidos.urls', namespace='pedidos')),
 
     # Admin
     url(r'^admin/', admin.site.urls),
