@@ -189,20 +189,22 @@
         <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
           <div class="row">
             <div class="col-sm-12">
-              <form id="main-contact-form" name="contact-form" method="post" action="#">
-                <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
-                  <div class="col-sm-12">
-                    <div class="form-group">
-                      <input type="text" name="name" class="form-control" placeholder="Nombre" required="required">
-                    </div>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <input type="file" name="subject" class="form-control" placeholder="Modelos" required="required">
-                </div>
-                <div class="form-group">
-                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Mensaje" required="required"></textarea>
-                </div>
+              <form id="main-contact-form" name="contact-form" method="post" action="{% url 'core:send_contact_form' %}">
+                {% csrf_token %}
+                {{ form }}
+{#                <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">#}
+{#                  <div class="col-sm-12">#}
+{#                    <div class="form-group">#}
+{#                      <input type="text" name="name" class="form-control" placeholder="Nombre" required="required">#}
+{#                    </div>#}
+{#                  </div>#}
+{#                </div>#}
+{#                <div class="form-group">#}
+{#                  <input type="file" name="file" class="form-control" placeholder="Modelos" required="required">#}
+{#                </div>#}
+{#                <div class="form-group">#}
+{#                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Mensaje" required="required"></textarea>#}
+{#                </div>#}
                 <div class="form-group col-sm-offset-8">
                   <button type="submit" class="btn-submit">Enviar</button>
                 </div>

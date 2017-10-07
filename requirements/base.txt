@@ -40,10 +40,15 @@ django-model-utils==2.3.1
 
 # Enables redis cacheing
 # https://django-redis.readthedocs.org/en/latest/
-django-redis==4.3.0
+django-redis
+
+celery[redis]
 
 # http://forms.viewflow.io/
 django-material
+# django-viewflow
+
+Pillow
 
 django-environ==0.4.0
 
@@ -51,8 +56,10 @@ django-overextends
 
 git+https://github.com/agiliq/Django-parsley
 
-
 gunicorn==19.6.0
+
 psycopg2==2.6.2
+
 whitenoise==3.2
+
 dj-database-url==0.4.1
