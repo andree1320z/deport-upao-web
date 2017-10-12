@@ -83,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+              <caret line="0" column="45" lean-forward="false" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -484,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507845751115</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="procfile updated 3">
+      <created>1507845848334</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1507845848335</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -561,7 +568,8 @@
     <MESSAGE value="requirements.txt add gunicorn and some extra to reqs.txt" />
     <MESSAGE value="procfile updated" />
     <MESSAGE value="procfile updated 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="procfile updated 2" />
+    <MESSAGE value="procfile updated 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="procfile updated 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -949,7 +957,7 @@
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="34" lean-forward="false" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+          <caret line="0" column="45" lean-forward="false" selection-start-line="0" selection-start-column="45" selection-end-line="0" selection-end-column="45" />
           <folding />
         </state>
       </provider>
