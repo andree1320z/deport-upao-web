@@ -1,1 +1,1 @@
-web: gunicorn deport-upao.wsgi --log-file -
+web: gunicorn deport_upao.wsgi --log-file -
