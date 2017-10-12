@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath deport_upao config.wsgi --log-file -
+web: gunicorn --module deport_upao.heroku_wsgi --log-file -
